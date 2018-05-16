@@ -1,0 +1,18 @@
+INFO  20:15:33,447 - Compiling source file: C:\Users\v-abgici\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:15:33,461 - #2 program
+INFO  20:15:33,461 - #40 MJProgram
+INFO  20:15:33,461 - #40 int
+INFO  20:15:33,462 - #40 x
+INFO  20:15:33,462 - #30 ;
+INFO  20:15:33,462 - #40 int
+INFO  20:15:33,462 - #40 y
+INFO  20:15:33,462 - #30 ;
+INFO  20:15:33,462 - #40 bool
+INFO  20:15:33,462 - #40 prom
+INFO  20:15:33,463 - #27 =
+ERROR 20:15:33,463 - 
+Sintaksna greska na liniji 2
+ERROR 20:15:33,463 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+ERROR 20:15:33,467 - Nije pronadjen tip bool u tabeli simbola
+INFO  20:15:33,467 - Print calls = 0
+ERROR 20:15:33,468 - Parsiranje NIJE uspesno zavrseno!

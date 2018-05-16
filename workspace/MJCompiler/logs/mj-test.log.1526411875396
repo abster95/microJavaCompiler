@@ -1,0 +1,23 @@
+INFO  20:59:57,208 - Compiling source file: C:\Users\v-abgici\Desktop\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:59:57,221 - #2 program
+INFO  20:59:57,221 - #40 MJProgram
+INFO  20:59:57,221 - #40 int
+INFO  20:59:57,222 - #40 x
+INFO  20:59:57,222 - #30 ;
+INFO  20:59:57,222 - #40 int
+INFO  20:59:57,223 - #40 y
+INFO  20:59:57,223 - #30 ;
+INFO  20:59:57,223 - #40 bool
+INFO  20:59:57,223 - #40 prom
+INFO  20:59:57,223 - #30 ;
+INFO  20:59:57,223 - #40 char
+INFO  20:59:57,223 - #40 zz
+INFO  20:59:57,223 - #30 ;
+INFO  20:59:57,223 - #37 {
+INFO  20:59:57,223 - #40 prom
+INFO  20:59:57,224 - #27 =
+ERROR 20:59:57,224 - 
+Sintaksna greska na liniji 4
+ERROR 20:59:57,224 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4
+INFO  20:59:57,230 - Print calls = 0
+ERROR 20:59:57,230 - Parsiranje NIJE uspesno zavrseno!
