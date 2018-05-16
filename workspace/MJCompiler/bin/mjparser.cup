@@ -63,7 +63,8 @@ terminal Character CHAR;
 terminal Boolean BOOL;
 terminal IF, ELSE;
 
-nonterminal DeclarationList, MethodDeclList, VarDecl;
+nonterminal DeclarationList, Declaration, MethodDeclList;
+nonterminal VarDecl, VarDeclList, Vars;
 nonterminal ConstantsDecl, ConstList, Const;
 nonterminal FormalParamList, FormalParamDecl, FormPars, ActualPars, ActualParamList; 
 nonterminal StatementList, Statement, Addop, Mulop;
@@ -118,6 +119,18 @@ Vars ::= (VarArray) IDENT:arrayId LBRACKET RBRACKET
 			(VarError) error
 			{: parser.log.debug("Oporavljen od greske pri definiciji globalne promenjive"); :}
 ;
+
+// How to declare classes
+ClassDecl ::= CLASS ClassName Extends LBRACE  ClassVars ClassMethods LBRACE;
+
+ClassName ::= (ClassName) IDENT:className;
+
+Extends ::= (Extending)EXTENDS Type
+			|
+			(NotExtending)/*Epsilon*/
+			;
+ClassVars ::= VarDecl;
+
 
 Type ::= (Type) IDENT:typeName 
 ;
